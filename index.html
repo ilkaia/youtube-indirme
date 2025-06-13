@@ -13,6 +13,22 @@
   </head>
   <body>
     <div id="root"></div>
+    
+    <!-- Hidden form for Netlify Forms detection -->
+    <form name="contact" netlify netlify-honeypot="bot-field" hidden>
+      <input type="text" name="name" />
+      <input type="email" name="email" />
+      <select name="subject">
+        <option value="Genel Soru">Genel Soru</option>
+        <option value="Teknik Destek">Teknik Destek</option>
+        <option value="İşbirliği Teklifi">İşbirliği Teklifi</option>
+        <option value="Hata Bildirimi">Hata Bildirimi</option>
+        <option value="Öneri/Geri Bildirim">Öneri/Geri Bildirim</option>
+        <option value="Diğer">Diğer</option>
+      </select>
+      <textarea name="message"></textarea>
+    </form>
+    
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
