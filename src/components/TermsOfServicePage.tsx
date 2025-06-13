@@ -245,7 +245,7 @@ const TermsOfServicePage = () => {
             </p>
             <div className="bg-gray-50 rounded-xl p-6 max-w-md mx-auto">
               <p className="text-gray-800 font-semibold">
-                legal@youtube-indirme.com.tr
+                info@youtube-indirme.com.tr
               </p>
               <p className="text-gray-600 text-sm mt-2">
                 Yanıt süresi: 2-3 iş günü
