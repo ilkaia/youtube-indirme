@@ -1,6 +1,7 @@
 import React from 'react';
 import { Play, Download, Shield, Clock } from 'lucide-react';
 import { motion } from 'framer-motion';
+import { Link } from 'react-router-dom';
 import BackgroundEffects from './BackgroundEffects';
 
 const Hero = () => {
@@ -58,14 +59,16 @@ const Hero = () => {
               <span>En İyi Programları Keşfet</span>
             </motion.button>
             
-            <motion.button
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-              className="bg-white hover:bg-gray-50 text-gray-800 px-6 py-3 rounded-xl font-semibold text-base border-2 border-gray-200 hover:border-gray-300 transition-all duration-200 flex items-center justify-center space-x-2"
-            >
-              <Download className="h-4 w-4" />
-              <span>Ücretsiz Rehberleri Gör</span>
-            </motion.button>
+            <Link to="/tutorials">
+              <motion.button
+                whileHover={{ scale: 1.05 }}
+                whileTap={{ scale: 0.95 }}
+                className="bg-white hover:bg-gray-50 text-gray-800 px-6 py-3 rounded-xl font-semibold text-base border-2 border-gray-200 hover:border-gray-300 transition-all duration-200 flex items-center justify-center space-x-2"
+              >
+                <Download className="h-4 w-4" />
+                <span>Ücretsiz Rehberleri Gör</span>
+              </motion.button>
+            </Link>
           </div>
 
           {/* Compact Feature Pills - These mark the end of background */}
