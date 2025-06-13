@@ -9,7 +9,6 @@ const Header = () => {
 
   const navItems = [
     { name: 'Ana Sayfa', href: '/' },
-    { name: 'Premium', href: '/premium-tools' },
     { name: 'Online', href: '/online-tools' },
     { name: 'Rehberler', href: '/tutorials' },
     { name: 'Hakkımızda', href: '/about' },
