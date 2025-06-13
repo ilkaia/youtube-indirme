@@ -16,7 +16,6 @@ import TermsOfServicePage from './components/TermsOfServicePage';
 import CookiePolicyPage from './components/CookiePolicyPage';
 import AboutPage from './components/AboutPage';
 import ContactPage from './components/ContactPage';
-import FAQPage from './components/FAQPage';
 
 function HomePage() {
   return (
@@ -42,7 +41,6 @@ function App() {
             <Route path="/online-tools" element={<OnlineToolsPage />} />
             <Route path="/premium-tools" element={<PremiumToolsPage />} />
             <Route path="/tutorials" element={<TutorialsPage />} />
-            <Route path="/faq" element={<FAQPage />} />
             <Route path="/about" element={<AboutPage />} />
             <Route path="/contact" element={<ContactPage />} />
             <Route path="/privacy-policy" element={<PrivacyPolicyPage />} />

@@ -12,7 +12,6 @@ const Header = () => {
     { name: 'Premium', href: '/premium-tools' },
     { name: 'Online', href: '/online-tools' },
     { name: 'Rehberler', href: '/tutorials' },
-    { name: 'Sorular', href: '/faq' },
     { name: 'Hakkımızda', href: '/about' },
     { name: 'İletişim', href: '/contact' },
   ];
