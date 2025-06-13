@@ -19,13 +19,13 @@ const Footer = () => {
     'Şirket': [
       { name: 'Hakkımızda', href: '/about' },
       { name: 'İletişim', href: '/contact' },
+      { name: 'Sık Sorulan Sorular', href: '/faq' },
       { name: 'Gizlilik Politikası', href: '/privacy-policy' },
-      { name: 'Kullanım Şartları', href: '/terms-of-service' },
     ],
     'Destek': [
-      { name: 'Sık Sorulan Sorular', href: '#' },
+      { name: 'Kullanım Şartları', href: '/terms-of-service' },
+      { name: 'Çerez Politikası', href: '/cookie-policy' },
       { name: 'Teknik Destek', href: '/contact' },
-      { name: 'Blog', href: '#' },
       { name: 'Topluluk', href: '#' },
     ],
   };
