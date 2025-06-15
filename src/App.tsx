@@ -1,5 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import YouTubeAIWidget from './components/YouTubeAIWidget';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import FeaturedTools from './components/FeaturedTools';
@@ -29,6 +30,18 @@ function HomePage() {
     </>
   );
 }
+
+function App() {
+  return (
+    <div className="App">
+      {/* Mevcut site içeriğiniz burada kalacak */}
+      
+      {/* Widget'ı en alta ekleyin */}
+      <YouTubeAIWidget />
+    </div>
+  );
+}
+
 
 function App() {
   return (
