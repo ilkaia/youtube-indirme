@@ -50,9 +50,13 @@ function App() {
           </Routes>
         </main>
         <Footer />
+
+        {/* 🎯 YouTubeAIWidget bileşenini en alt kısma ekledik */}
+        <YouTubeAIWidget />
       </div>
     </Router>
   );
 }
+
 
 export default App;
