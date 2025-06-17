@@ -33,18 +33,6 @@ function HomePage() {
 
 function App() {
   return (
-    <div className="App">
-      {/* Mevcut site içeriğiniz burada kalacak */}
-      
-      {/* Widget'ı en alta ekleyin */}
-      <YouTubeAIWidget />
-    </div>
-  );
-}
-
-
-function App() {
-  return (
     <Router>
       <div className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50">
         <Header />
