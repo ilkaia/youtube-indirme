@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* YouTube AI Widget Customization */
+#youtube-ai-widget-chat-window {
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+
+/* Additional widget styling to ensure clean appearance */
+.youtube-ai-widget-container {
+  background: transparent !important;
+}
+
+.youtube-ai-widget-overlay {
+  background: transparent !important;
+}
