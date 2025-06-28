@@ -2,17 +2,36 @@
 @tailwind components;
 @tailwind utilities;
 
-/* YouTube AI Widget Customization */
-#youtube-ai-widget-chat-window {
+/* YouTube AI Widget Customization - More aggressive approach */
+#youtube-ai-widget-chat-window,
+.youtube-ai-widget-container,
+.youtube-ai-widget-overlay,
+[class*="youtube-ai-widget"],
+[id*="youtube-ai-widget"] {
   background-color: transparent !important;
+  background: transparent !important;
+  box-shadow: none !important;
+  backdrop-filter: none !important;
+  border: none !important;
+}
+
+/* Target any white backgrounds in widget */
+[class*="widget"] *,
+[id*="widget"] * {
+  background-color: transparent !important;
+}
+
+/* Specific targeting for common widget wrapper patterns */
+.widget-container,
+.chat-widget,
+.ai-widget,
+.floating-widget {
+  background: transparent !important;
   box-shadow: none !important;
 }
 
-/* Additional widget styling to ensure clean appearance */
-.youtube-ai-widget-container {
-  background: transparent !important;
-}
-
-.youtube-ai-widget-overlay {
+/* Override any iframe or embedded content backgrounds */
+iframe[src*="widget"],
+iframe[src*="chat"] {
   background: transparent !important;
 }
